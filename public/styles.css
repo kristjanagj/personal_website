@@ -32,16 +32,16 @@ header{
     padding: 20px 0;
     margin: 0;
     text-align: center;
-    border-top: 1px solid #64646429;
-    border-bottom: 1px solid #64646429;
+    border-top: 1px solid #ffeaea29;
+    border-bottom: 1px solid #ffeaea29;
 }
 
 .avatar{
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 50%;
-    border: 2px solid #ffffff3d;
     width: 300px;
+    box-shadow: -2px 2px 17px 4px #181d28;
 }
 
 .link{
@@ -58,7 +58,7 @@ header{
 }
 
 body{
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(28 50 80);
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -66,12 +66,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1{
+    padding-top: 20px;
     font-size: 2em;
     margin-bottom: 0.2em;
 }
 
 p{
     color: white;
-    font-size: 0.8em;
+    font-size: 16px;
     margin-bottom: 1em;
+    text-align: justify;
+    padding-top: 15px;
 }
